@@ -45,6 +45,7 @@ function mdlpress_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'mdlpress' ),
+		'drawer' => esc_html__( 'Drawer', 'mdlpress' ),
 	) );
 
 	/*
@@ -128,6 +129,11 @@ function mdlpress_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'mdlpress_scripts' );
+
+/**
+ * Custom Walker Menu for Material Design Lite.
+ */
+require get_template_directory() . '/inc/nav-walker.php';
 
 /**
  * Implement the Custom Header feature.
