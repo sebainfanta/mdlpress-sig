@@ -21,8 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site mdl-layout mdl-js-layout">
-	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'mdlpress' ); ?></a>
+<div id="page" class="site mdl-layout mdl-js-layout">	
 
 	<header id="masthead" class="site-header mdl-layout__header" role="banner">
 
