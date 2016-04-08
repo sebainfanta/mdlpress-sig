@@ -12945,30 +12945,35 @@ textarea {
 ## Posts and pages
 --------------------------------------------------------------*/
 /* line 1, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+.site {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word; }
+
+/* line 6, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .sticky {
   display: block; }
 
-/* line 5, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 10, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .hentry {
   margin: 0 0 1.5em; }
 
-/* line 9, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 14, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .byline,
 .updated:not(.published) {
   display: none; }
 
-/* line 14, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 19, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .single .byline,
 .group-blog .byline {
   display: inline; }
 
-/* line 19, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 24, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0; }
 
-/* line 25, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 30, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
@@ -13013,6 +13018,12 @@ embed,
 iframe,
 object {
   max-width: 100%; }
+
+/* line 17, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/media/_media.scss */
+img {
+  height: auto;
+  max-width: 100%;
+  display: block; }
 
 /*--------------------------------------------------------------
 ## Captions
