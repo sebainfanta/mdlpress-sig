@@ -642,7 +642,7 @@ textarea {
 /* Remove the unwanted box around FAB buttons */
 /* More info: http://goo.gl/IPwKi */
 /* line 20, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/resets/_mobile.scss */
-a, .mdl-accordion, .mdl-button, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
+a, .mdl-accordion, .mdl-button, .nav-links a, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
 .mdl-icon-toggle, .mdl-item, .mdl-radio, .mdl-slider, .mdl-switch, .mdl-tabs__tab {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
@@ -4316,7 +4316,7 @@ ul, ol {
     background: rgb(96,125,139);
     color: rgb(255,255,255); }
     /* line 42, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/badge/_badge.scss */
-    .mdl-button .mdl-badge[data-badge]:after {
+    .mdl-button .mdl-badge[data-badge]:after, .nav-links a .mdl-badge[data-badge]:after {
       top: -10px;
       right: -5px; }
   /* line 59, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/badge/_badge.scss */
@@ -4516,7 +4516,7 @@ ul, ol {
 /* Animations */
 /* Dialog */
 /* line 21, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button {
+.mdl-button, .nav-links a {
   background: transparent;
   border: none;
   border-radius: 2px;
@@ -4544,22 +4544,22 @@ ul, ol {
   line-height: 36px;
   vertical-align: middle; }
   /* line 45, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button::-moz-focus-inner {
+  .mdl-button::-moz-focus-inner, .nav-links a::-moz-focus-inner {
     border: 0; }
   /* line 49, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button:hover {
+  .mdl-button:hover, .nav-links a:hover {
     background-color: rgba(158,158,158, 0.20); }
   /* line 53, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button:focus:not(:active) {
+  .mdl-button:focus:not(:active), .nav-links a:focus:not(:active) {
     background-color: rgba(0,0,0, 0.12); }
   /* line 57, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button:active {
+  .mdl-button:active, .nav-links a:active {
     background-color: rgba(158,158,158, 0.40); }
   /* line 61, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button.mdl-button--colored {
+  .mdl-button.mdl-button--colored, .nav-links a {
     color: rgb(255,87,34); }
     /* line 64, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button.mdl-button--colored:focus:not(:active) {
+    .mdl-button.mdl-button--colored:focus:not(:active), .nav-links a:focus:not(:active) {
       background-color: rgba(0,0,0, 0.12); }
 
 /* line 70, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
@@ -4579,24 +4579,24 @@ input.mdl-button[type="submit"] {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
     background-color: rgba(158,158,158, 0.40); }
   /* line 89, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--raised.mdl-button--colored {
+  .mdl-button--raised.mdl-button--colored, .nav-links a.mdl-button--raised {
     background: rgb(255,87,34);
     color: rgb(255,255,255); }
     /* line 93, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--raised.mdl-button--colored:hover {
+    .mdl-button--raised.mdl-button--colored:hover, .nav-links a.mdl-button--raised:hover {
       background-color: rgb(255,87,34); }
     /* line 97, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--raised.mdl-button--colored:active {
+    .mdl-button--raised.mdl-button--colored:active, .nav-links a.mdl-button--raised:active {
       background-color: rgb(255,87,34); }
     /* line 101, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--raised.mdl-button--colored:focus:not(:active) {
+    .mdl-button--raised.mdl-button--colored:focus:not(:active), .nav-links a.mdl-button--raised:focus:not(:active) {
       background-color: rgb(255,87,34); }
     /* line 105, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--raised.mdl-button--colored .mdl-ripple {
+    .mdl-button--raised.mdl-button--colored .mdl-ripple, .nav-links a.mdl-button--raised .mdl-ripple {
       background: rgb(255,255,255); }
 
 /* line 113, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button--fab {
+.mdl-button--fab, .nav-links a {
   border-radius: 50%;
   font-size: 24px;
   height: 56px;
@@ -4610,7 +4610,7 @@ input.mdl-button[type="submit"] {
   position: relative;
   line-height: normal; }
   /* line 127, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab .material-icons {
+  .mdl-button--fab .material-icons, .nav-links a .material-icons {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -4619,37 +4619,37 @@ input.mdl-button[type="submit"] {
     line-height: 24px;
     width: 24px; }
   /* line 136, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab.mdl-button--mini-fab {
+  .mdl-button--fab.mdl-button--mini-fab, .nav-links a.mdl-button--mini-fab {
     height: 40px;
     min-width: 40px;
     width: 40px; }
   /* line 142, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab .mdl-button__ripple-container {
+  .mdl-button--fab .mdl-button__ripple-container, .nav-links a .mdl-button__ripple-container {
     border-radius: 50%;
     -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }
   /* line 148, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab:active {
+  .mdl-button--fab:active, .nav-links a:active {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
     background-color: rgba(158,158,158, 0.40); }
   /* line 153, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab:focus:not(:active) {
+  .mdl-button--fab:focus:not(:active), .nav-links a:focus:not(:active) {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
     background-color: rgba(158,158,158, 0.40); }
   /* line 158, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--fab.mdl-button--colored {
+  .mdl-button--fab.mdl-button--colored, .nav-links a {
     background: rgb(96,125,139);
     color: rgb(255,255,255); }
     /* line 162, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored:hover {
+    .mdl-button--fab.mdl-button--colored:hover, .nav-links a:hover {
       background-color: rgb(96,125,139); }
     /* line 166, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored:focus:not(:active) {
+    .mdl-button--fab.mdl-button--colored:focus:not(:active), .nav-links a:focus:not(:active) {
       background-color: rgb(96,125,139); }
     /* line 170, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored:active {
+    .mdl-button--fab.mdl-button--colored:active, .nav-links a:active {
       background-color: rgb(96,125,139); }
     /* line 174, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-    .mdl-button--fab.mdl-button--colored .mdl-ripple {
+    .mdl-button--fab.mdl-button--colored .mdl-ripple, .nav-links a .mdl-ripple {
       background: rgb(255,255,255); }
 
 /* line 182, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
@@ -4699,8 +4699,8 @@ input.mdl-button[type="submit"] {
   z-index: 0;
   overflow: hidden; }
   /* line 234, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button[disabled] .mdl-button__ripple-container .mdl-ripple,
-  .mdl-button.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple {
+  .mdl-button[disabled] .mdl-button__ripple-container .mdl-ripple, .nav-links a[disabled] .mdl-button__ripple-container .mdl-ripple,
+  .mdl-button.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple, .nav-links a.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple {
     background-color: transparent; }
 
 /* line 242, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
@@ -4710,7 +4710,7 @@ input.mdl-button[type="submit"] {
   .mdl-button--primary.mdl-button--primary .mdl-ripple {
     background: rgb(255,255,255); }
   /* line 247, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab {
+  .mdl-button--primary.mdl-button--primary.mdl-button--raised, .mdl-button--primary.mdl-button--primary.mdl-button--fab, .nav-links a.mdl-button--primary.mdl-button--primary {
     color: rgb(255,255,255);
     background-color: rgb(255,87,34); }
 
@@ -4721,18 +4721,18 @@ input.mdl-button[type="submit"] {
   .mdl-button--accent.mdl-button--accent .mdl-ripple {
     background: rgb(255,255,255); }
   /* line 258, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-  .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+  .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab, .nav-links a.mdl-button--accent.mdl-button--accent {
     color: rgb(255,255,255);
     background-color: rgb(96,125,139); }
 
 /* line 268, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button[disabled][disabled], .mdl-button.mdl-button--disabled.mdl-button--disabled {
+.mdl-button[disabled][disabled], .nav-links a[disabled][disabled], .mdl-button.mdl-button--disabled.mdl-button--disabled, .nav-links a.mdl-button--disabled.mdl-button--disabled {
   color: rgba(0,0,0, 0.26);
   cursor: default;
   background-color: transparent; }
 
 /* line 277, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button--fab[disabled][disabled], .mdl-button--fab.mdl-button--disabled.mdl-button--disabled {
+.mdl-button--fab[disabled][disabled], .nav-links a[disabled][disabled], .mdl-button--fab.mdl-button--disabled.mdl-button--disabled, .nav-links a.mdl-button--disabled.mdl-button--disabled {
   background-color: rgba(0,0,0, 0.12);
   color: rgba(0,0,0, 0.26); }
 
@@ -4743,11 +4743,11 @@ input.mdl-button[type="submit"] {
   box-shadow: none; }
 
 /* line 295, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button--colored[disabled][disabled], .mdl-button--colored.mdl-button--disabled.mdl-button--disabled {
+.mdl-button--colored[disabled][disabled], .nav-links a[disabled][disabled], .mdl-button--colored.mdl-button--disabled.mdl-button--disabled, .nav-links a.mdl-button--disabled.mdl-button--disabled {
   color: rgba(0,0,0, 0.26); }
 
 /* line 303, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/button/_button.scss */
-.mdl-button .material-icons {
+.mdl-button .material-icons, .nav-links a .material-icons {
   vertical-align: middle; }
 
 /**
@@ -11032,7 +11032,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   margin: 0;
   padding: 20px 0; }
   /* line 32, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/bower_components/material-design-lite/src/textfield/_textfield.scss */
-  .mdl-textfield .mdl-button {
+  .mdl-textfield .mdl-button, .mdl-textfield .nav-links a, .nav-links .mdl-textfield a {
     position: absolute;
     bottom: 20px; }
 
@@ -12994,6 +12994,14 @@ textarea {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+/* line 43, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+.nav-previous {
+  float: right; }
+
+/* line 47, /home/sebainfanta/lamp/public_html/bootwp_sassy/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+.nav-next {
+  float: left; }
 
 /*--------------------------------------------------------------
 ## Asides
