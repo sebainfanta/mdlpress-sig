@@ -14,11 +14,13 @@ object {
 	max-width: 100%;
 }
 
+/* Make sure images don't exceed their containers and behave responsively */
 img {
 	height: auto;
 	max-width: 100%;
 	display: block;
 }
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/

@@ -20,8 +20,15 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
-@import "material-design-lite"; 
 
+
+@import "color-definitions";
+
+$color-primary: $palette-deep-orange-500;
+$color-primary-dark: $palette-deep-orange-a700;
+$color-accent: $palette-blue-grey-500;
+
+@import "material-design-lite"; 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
